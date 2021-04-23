@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+        <script src="firebase1.js"></script>
+    </head>
+    <body>
+        <div class="row">
+            <label>Name Of The Student:</label>
+            <input type="text" id="sname">
+        </div>
+        <div class="row">
+            <label>Roll No:</label>
+            <input type="text" id="rno">
+        </div>
+        <button onclick="insertData()">Add</button>
+        <button onclick="deleteData()">Delete</button>
+        <button onclick="updateData()">Update</button>
+        <button onclick="loadData()">Read</button>
+    </body>
+</html>
